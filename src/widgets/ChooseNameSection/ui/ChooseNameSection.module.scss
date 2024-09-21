@@ -1,0 +1,36 @@
+@import '@/shared/styles/colors';
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.titleWrap {
+  text-transform: uppercase;
+
+  span {
+    color: $blue;
+  }
+}
+
+.checkbox {
+  padding: 32px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btnWrap {
+  font-size: 24px;
+  line-height: 32px;
+
+  button {
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    background-color: $orange;
+  }
+}

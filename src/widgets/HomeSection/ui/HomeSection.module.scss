@@ -1,0 +1,36 @@
+@import '@/shared/styles/colors';
+
+.home {
+  margin-top: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0 0 0;
+}
+
+.textWrap {
+  text-align: center;
+
+  span {
+    color: $blue;
+  }
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+
+  h4 {
+    text-align: center;
+  }
+
+  button {
+    background-color: $orange;
+  }
+
+  span {
+    color: $blue;
+  }
+}

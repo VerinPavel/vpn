@@ -1,0 +1,50 @@
+@import '@/shared/styles/colors';
+
+.modalWrap {
+  position: fixed;
+  height: calc(100vh - 76px);
+  width: 100vw;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  pointer-events: all;
+  z-index: 2100;
+  overflow: hidden;
+}
+
+.modal {
+  top: 82px;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 194px 0;
+  gap: 16px;
+
+  svg {
+    float: right;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.btnWrap {
+  button {
+    width: 100%;
+    background-color: $orange;
+  }
+}
