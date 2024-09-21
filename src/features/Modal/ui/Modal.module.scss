@@ -25,6 +25,11 @@
   padding: 40px 194px 0;
   gap: 16px;
 
+  @media (max-width: 1023px) and (min-width: 0px) {
+    padding: 40px 16px;
+    width: 100%;
+  }
+
   svg {
     float: right;
   }
